@@ -50,10 +50,7 @@ import requests
 # Edit display_key / account_name only — account_id is the AWS 12-digit ID.
 # ---------------------------------------------------------------------------
 NAMED_ACCOUNTS: dict[str, dict[str, str]] = {
-    "prod-atlas":  {"account_name": "prod",        "account_id": "420848092533"},
-    "dev-atlas":   {"account_name": "dev",         "account_id": "78779161144"},
-    "dms-qa":      {"account_name": "rnd_driivz",  "account_id": "241560546024"},
-    "management":  {"account_name": "driivz.com",  "account_id": "595691082268"},
+    "prod-atlas":  {"account_name": "prod",        "account_id": "4123123123"},
 }
 NAMED_IDS: list[str] = [v["account_id"] for v in NAMED_ACCOUNTS.values()]
 
